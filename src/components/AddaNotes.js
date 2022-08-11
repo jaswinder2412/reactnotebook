@@ -7,6 +7,7 @@ export default function AddaNotes() {
 
    const handleclick = (e)=>{
     e.preventDefault()
+    
     addNote(note)
    }  
    
@@ -29,7 +30,7 @@ export default function AddaNotes() {
     <input type="text" className="form-control" name="description" onChange={onchnge}  id="exampleInputDesc" placeholder="description"/>
   </div>
    
-  <button type="button" onClick={handleclick} className="btn btn-primary mt-5">Submit</button>
+  <button type="button" onClick={handleclick} className="btn btn-primary mt-5">Add Note</button>
 </form>
 
       </div>
